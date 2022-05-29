@@ -24,8 +24,9 @@ module.exports = (sequelize, DataTypes) => {
       },
     },
     {
-      tableName: "Media",
+      tableName: "media",
     }
   );
+
   return Media;
 };
